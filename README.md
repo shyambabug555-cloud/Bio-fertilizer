@@ -3,17 +3,21 @@
 **Short description:**  
 A lightweight image-based soil/crop condition detection tool that takes a soil or leaf image and returns a diagnosis (e.g., healthy, nutrient-deficient, fungal infection) along with a confidence score and suggested next steps.
 
+## Summary
+Soil Image Detector is an AI-powered tool that analyzes images of soil or crop leaves to identify conditions such as nutrient deficiencies, fungal infections, or water stress. Using a CNN model built with TensorFlow/Keras, it predicts the class of the soil/crop condition with a confidence score and provides actionable advice for farmers or agritech applications. The project includes training scripts, a ready-to-use model, and accuracy/loss visualizations to showcase performance.
+
 ## Features
 - Classifies soil/crop condition from an image (e.g., Healthy, Nitrogen Deficiency, Potassium Deficiency, Fungal Disease, Water Stress).
 - Returns a confidence score for the predicted class.
 - Provides short actionable advice for common conditions.
 - Simple CLI and script-based usage; easy to extend to a web or mobile UI.
+- Accuracy and Loss plots included to visualize model performance.
 
-## Tech stack
+## Tech Stack
 - Python 3.8+
 - TensorFlow / Keras (or PyTorch — replace with your framework)
 - OpenCV / Pillow for image preprocessing
 - NumPy, Pandas (optional, for dataset/metrics)
 - Flask (optional — for creating a web API)
 
-## Repository structure (example)
+## Repository Structure (example)
